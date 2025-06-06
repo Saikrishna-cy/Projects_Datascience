@@ -1,0 +1,17 @@
+Install all required libraries by running:
+pip install -r requirements.txt
+gymnasium is used for creating and managing the CartPole environment.
+gymnasium>=0.26.0
+
+torch is needed for building and training our neural network-based policies and value approximators.
+torch>=2.0.0
+
+numpy is used for handling numerical operations and arrays.
+numpy>=1.21.0
+
+matplotlib is used for plotting the learning curves and graphs.
+matplotlib>=3.4.0
+
+pandas is used for data handling and recording experimental results.
+pandas>=1.3.0
+
